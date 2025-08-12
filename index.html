@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MySearch — Privacy Focused Search</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-animation"></div>
+  <main class="wrap">
+    <header class="hero">
+      <h1 class="logo">Pre_Search</h1>
+      <p class="tag" id="typingText"></p>
+
+      <form id="searchForm" class="search-form" autocomplete="off">
+        <div class="input-container">
+          <input id="q" name="q" class="search-input" type="search" placeholder="What are you looking for?" required />
+          <button type="submit" class="search-btn">Search</button>
+        </div>
+      </form>
+    </header>
+
+    <section id="resultsSection" class="results-section hidden">
+      <div id="status" class="status"></div>
+      <ul id="resultsList" class="results-list"></ul>
+    </section>
+
+    <footer class="footer">
+      <small>Private search that doesn't track you</small>
+    </footer>
+    <footer class="footer">
+     <small>NAHID_MAHMUD : tohidul07890@gmail.com </small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
